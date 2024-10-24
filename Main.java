@@ -1,4 +1,4 @@
-/*napraviti funkciju koja će rovjeravati da li je lista uzlazno sortirana.
+/*napraviti funkciju koja će provjeravati da li je lista uzlazno sortirana.
 prethodno, listu popunjava korisnik svojim unosima.
 funkcija treba vratiti true ili false.
 na kraju programa korisniku ispisati da li je lista sortirana ili nije.
@@ -39,30 +39,3 @@ public class Main {
         return true;
     }
 }
-
-
-
-
-/*Scanner scanner = new Scanner(System.in);
-        List<Integer> listaBrojeva = new ArrayList<>();
-
-        System.out.println("Unesite broj elemenata u listi: ");
-        int brojElemenata = scanner.nextInt();
-
-        for (int i=0; i<brojElemenata; i++) {
-            System.out.print("Unesite " + (i + 1) + ". broj: ");
-            listaBrojeva.add(scanner.nextInt());
-        }
-
-        boolean duplikat = false;
-        for (int i =0; i<listaBrojeva.size(); i++){
-            for(int j=i+1; j<listaBrojeva.size(); j++) {
-                if(listaBrojeva.get(i).equals(listaBrojeva.get(j))){
-                    duplikat = true;
-                    break;
-                }
-            }
-            if (duplikat) {
-                break;
-            }
-        }*/
